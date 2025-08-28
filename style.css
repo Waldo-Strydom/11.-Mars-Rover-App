@@ -1,0 +1,50 @@
+
+body{
+    margin:0;
+    padding: 0%;
+    text-align: center;   
+    background-image: url(./assets/spaceBg.jpg);
+    color: rgb(247, 246, 242);
+}
+
+#inputDiv{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    font-size: 1.3rem;
+}
+
+.inDiv{
+    margin:1vh;
+}
+
+button{
+    background-color: rgb(11,61,145);
+    border: 2px solid rgb(4,3,5);
+    border-radius: 3vw;
+    font-size: 1.3rem ;
+}
+
+#outPutDiv{
+    /* border: 2px solid blue; */
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 320px);
+    justify-items: center;
+    justify-content: center;
+}
+
+figure{
+    /* border: 2px solid rgb(8,8,7); */
+
+    width: 300px;
+    /* overflow: hidden; */
+}
+
+img{
+    /* border: 2px solid green; */
+    width: 300px;
+}
+
+
+
